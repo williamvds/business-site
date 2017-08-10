@@ -1,0 +1,67 @@
+[Fri Jun 16 19:08:48 2017] PHP Notice:  Undefined index: headImgAlt in /var/www/lang.php on line 11
+[Fri Jun 16 19:08:48 2017] ::1:49268 [200]: /gallery
+[Fri Jun 16 19:08:48 2017] ::1:49270 [200]: /static/global.css
+[Fri Jun 16 19:08:48 2017] ::1:49272 [200]: /static/global.js
+[Fri Jun 16 19:08:48 2017] ::1:49274 [200]: /static/fb.svg
+[Fri Jun 16 19:08:48 2017] ::1:49276 [200]: /static/br.svg
+[Fri Jun 16 19:08:48 2017] ::1:49278 [404]: /favicon.ico - No such file or directory
+[Fri Jun 16 19:08:49 2017] PHP Notice:  Undefined index: headImgAlt in /var/www/lang.php on line 11
+[Fri Jun 16 19:08:49 2017] ::1:49280 [200]: /gallery
+[Fri Jun 16 19:08:49 2017] ::1:49282 [200]: /static/global.css
+[Fri Jun 16 19:08:49 2017] ::1:49284 [200]: /static/global.js
+[Fri Jun 16 19:08:49 2017] ::1:49286 [200]: /static/fb.svg
+[Fri Jun 16 19:08:49 2017] ::1:49288 [200]: /static/br.svg
+[Fri Jun 16 19:08:51 2017] PHP Notice:  Undefined index: headImgAlt in /var/www/lang.php on line 11
+[Fri Jun 16 19:08:51 2017] ::1:49296 [200]: /gallery
+[Fri Jun 16 19:08:51 2017] ::1:49298 [200]: /static/global.css
+[Fri Jun 16 19:08:51 2017] ::1:49300 [200]: /static/global.js
+[Fri Jun 16 19:08:51 2017] ::1:49302 [200]: /static/fb.svg
+[Fri Jun 16 19:08:51 2017] ::1:49304 [200]: /static/br.svg
+[Fri Jun 16 19:08:54 2017] ::1:49306 [200]: /contact?ajax
+[Fri Jun 16 19:08:54 2017] ::1:49310 [200]: /gallery?ajax
+[Fri Jun 16 19:08:55 2017] PHP Notice:  Undefined index: headImgAlt in /var/www/lang.php on line 11
+[Fri Jun 16 19:08:55 2017] ::1:49312 [200]: /gallery
+[Fri Jun 16 19:08:55 2017] ::1:49314 [200]: /static/global.css
+[Fri Jun 16 19:08:55 2017] ::1:49316 [200]: /static/global.js
+[Fri Jun 16 19:08:55 2017] ::1:49318 [200]: /static/fb.svg
+[Fri Jun 16 19:08:55 2017] ::1:49320 [200]: /static/br.svg
+[Fri Jun 16 19:09:01 2017] PHP Notice:  Undefined index: headImgAlt in /var/www/lang.php on line 11
+[Fri Jun 16 19:09:01 2017] ::1:49322 [200]: /gallery
+[Fri Jun 16 19:09:01 2017] ::1:49324 [200]: /static/global.css
+[Fri Jun 16 19:09:01 2017] ::1:49326 [200]: /static/global.js
+[Fri Jun 16 19:09:01 2017] ::1:49328 [200]: /static/fb.svg
+[Fri Jun 16 19:09:01 2017] ::1:49330 [200]: /static/br.svg
+[Fri Jun 16 19:09:03 2017] ::1:49332 [200]: /?ajax
+[Fri Jun 16 19:09:06 2017] PHP Notice:  Undefined index: headImgAlt in /var/www/lang.php on line 11
+[Fri Jun 16 19:09:06 2017] ::1:49338 [200]: /gallery
+[Fri Jun 16 19:09:06 2017] ::1:49340 [200]: /static/global.css
+[Fri Jun 16 19:09:06 2017] ::1:49342 [200]: /static/global.js
+[Fri Jun 16 19:09:06 2017] ::1:49344 [200]: /static/fb.svg
+[Fri Jun 16 19:09:06 2017] ::1:49346 [200]: /static/br.svg
+[Fri Jun 16 19:09:18 2017] PHP Notice:  Undefined index: headImgAlt in /var/www/lang.php on line 11
+[Fri Jun 16 19:09:18 2017] ::1:49348 [200]: /gallery
+[Fri Jun 16 19:09:18 2017] ::1:49350 [200]: /static/global.css
+[Fri Jun 16 19:09:18 2017] ::1:49352 [200]: /static/global.js
+[Fri Jun 16 19:09:18 2017] ::1:49354 [200]: /static/fb.svg
+[Fri Jun 16 19:09:18 2017] ::1:49356 [200]: /static/br.svg
+[Fri Jun 16 19:09:24 2017] PHP Notice:  Undefined index: headImgAlt in /var/www/lang.php on line 11
+[Fri Jun 16 19:09:24 2017] ::1:49358 [200]: /gallery
+[Fri Jun 16 19:09:24 2017] ::1:49360 [200]: /static/global.css
+[Fri Jun 16 19:09:24 2017] ::1:49362 [200]: /static/global.js
+[Fri Jun 16 19:09:24 2017] ::1:49364 [200]: /static/fb.svg
+[Fri Jun 16 19:09:24 2017] ::1:49366 [200]: /static/br.svg
+[Fri Jun 16 19:09:29 2017] ::1:49376 [200]: /static/global.css
+[Fri Jun 16 19:10:02 2017] PHP Notice:  Undefined index: headImgAlt in /var/www/lang.php on line 11
+[Fri Jun 16 19:10:02 2017] ::1:49642 [200]: /gallery
+[Fri Jun 16 19:10:02 2017] ::1:49644 [200]: /static/global.css
+[Fri Jun 16 19:10:02 2017] ::1:49646 [200]: /static/global.js
+[Fri Jun 16 19:10:02 2017] ::1:49648 [200]: /static/fb.svg
+[Fri Jun 16 19:10:02 2017] ::1:49650 [200]: /static/br.svg
+[Fri Jun 16 19:10:02 2017] PHP Notice:  Undefined index: headImgAlt in /var/www/lang.php on line 11
+[Fri Jun 16 19:10:02 2017] ::1:49652 [200]: /gallery
+[Fri Jun 16 19:10:02 2017] ::1:49654 [200]: /static/global.css
+[Fri Jun 16 19:10:02 2017] ::1:49656 [200]: /static/global.js
+[Fri Jun 16 19:10:02 2017] ::1:49658 [200]: /static/fb.svg
+[Fri Jun 16 19:10:02 2017] ::1:49660 [200]: /static/br.svg
+[Fri Jun 16 19:10:02 2017] ::1:49662 [200]: /static/fb.svg
+[Fri Jun 16 19:10:02 2017] ::1:49664 [200]: /static/br.svg

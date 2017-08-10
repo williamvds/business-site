@@ -1,0 +1,39 @@
+Options -Indexes
+
+# Redirect all requests to real index, except /static
+<ifmodule rewrite_module>
+  RewriteEngine on
+  RewriteRule ^static/ - [L]
+  RewriteRule .* src/index.php [L,QSA]
+</ifmodule>
+
+# TODO Redirect to https, without www. prefix
+#<VirtualHost *:80>
+#    ServerName example.com
+#    Redirect "/" "https://example.com"
+#</VirtualHost>
+#
+#<VirtualHost *:443>
+#    ServerName example.com
+#    Redirect "/" "https://www.example.com/"
+#</VirtualHost>
+
+# Enable client caching
+<ifmodule expires_module>
+  ExpiresActive On
+  ExpiresDefault "access plus 2 days"
+  <filesmatch "\.(jpg|jpeg|png|gif|svg|ico)$">
+    ExpiresDefault "access plus 1 week"
+  </filesmatch>
+</ifmodule>
+
+# Enable gzip
+<ifmodule deflate_module>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE image/x-icon
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE application/javascript
+</ifmodule>
