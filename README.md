@@ -31,16 +31,18 @@ website
 ## Usage
 
 ### Folder structure
-The `/static` folder is special, containing the only files that users are able to download.
+The [`/static`](static) folder is the only one containing the files that users are able to download.
 
-All other requests are silently redirected to `/src/index.php`.
+All other requests are silently redirected to [`/src/index.php`](src/index.php).
 
-As such, store any files that users must be able to download in `/static` - that includes
+As such, store any files that users must be able to download in [`/static`](static) - that includes
 JavaScript, CSS, and images.
 
-See `.htaccess` to see how this is done using the rewrite engine.
+See [`.htaccess`](.htaccess) to see how this is done using the rewrite engine.
 
 ### Router
+
+See [`/src/index.php`](src/index.php) and [`/src/routes.php`](src/routes.php) for more simple examples.
 
 #### 1. Responding to requests
 
@@ -99,9 +101,7 @@ $router->use( '/foo/:bar', function( $params ) {
 // Go to /foo:        no output
 // Go to /foo/1:      1
 // Go to /foo/string: string
-```
 
-```php
 $router->use( '/foo/:bar/:baz', function( $params ) {
   print_r( $params );
   return true;
