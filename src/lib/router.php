@@ -120,9 +120,6 @@ class Router {
 
   // Encode response as JSON
   public static function respondJSON() {
-    global $params;
-    $params = isset( $params )? $params : [];
-
     header( 'Content-type: text/json' );
     echo json_encode( [
       'title' => PAGE_TITLE,

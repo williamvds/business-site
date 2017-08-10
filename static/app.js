@@ -4,9 +4,7 @@ function ajax( url, done, json ) {
   req.send();
 
   req.onreadystatechange = function() {
-    if ( req.readyState != XMLHttpRequest.DONE || req.status == 500 ) {
-      return;
-    }
+    if ( req.readyState != XMLHttpRequest.DONE || req.status == 500 ) return;
 
     try {
       done( json? JSON.parse( req.responseText ) : req.responseText, req );
@@ -20,7 +18,6 @@ function ajax( url, done, json ) {
 
 var BASEURL, headerAs = [], currA;
 function ajaxLinks( html ) {
-
   for ( var elem of html.getElementsByTagName( 'a' ) ) {
     if ( !elem.href.startsWith( BASEURL ) || elem.id == 'lang' ) continue;
 
@@ -46,7 +43,7 @@ function ajaxLinks( html ) {
           ajaxLinks( main );
         }
 
-        window.history.pushState( { html: res.html, pageTitle: res.title },
+        window.history.pushState( {html: res.html, pageTitle: res.title},
           "", that.href );
 
       }, true );
@@ -74,7 +71,7 @@ window.onpopstate = function( e ) {
   document.title = state.pageTitle;
 
   if ( currA ) currA.classList.remove( 'current' );
-  var newA = headerAs[document.location];
+  var newA = headerAs[ document.location ];
   if ( newA ) {
     newA.classList.add( 'current' );
     currA = newA;

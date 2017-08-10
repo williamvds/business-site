@@ -1,7 +1,7 @@
 # A simple business site
 
 This project provides the backbone for the content a business might want to display on their
-website.
+website
 
 * Simple and clear style
 
@@ -12,15 +12,15 @@ website.
 * CSS-only slideshow and gallery page
 
 * Routing controlled by PHP with...
-  * a MVC style
+  * a controller system
   * support for parameters extracted from the request URI
-  * ability to respond in JSON format
+  * the ability to respond in JSON format
 
 * A basic language system
 
 ## Installation
 
-* Folder with AllowOverride enabled for .htaccess
+* Folder with AllowOverride enabled for `.htaccess`
 
 * Enable httpd modules:
   * php7\_module
@@ -42,7 +42,7 @@ See `.htaccess` to see how this is done using the rewrite engine.
 
 ### Router
 
-1. Responding to requests
+#### 1. Responding to requests
 
 ```php
 $router = new Router;
@@ -63,7 +63,7 @@ $router->use( function() {
 
 Methods available for `GET`, `POST`, `PUT`, and `DELETE`, all following the same format
 
-2. Filtering by request path
+#### 2. Filtering by request path
 
 ```php
 $router->use( '/', function() {
@@ -85,7 +85,7 @@ $router->use( '/foo*', function() {
 } );
 ```
 
-3. Getting parameters from URI
+#### 3. Getting parameters from URI
 
 `$params` is provided as a parameter in each callback. It is also available in the global scope.
 
@@ -113,11 +113,11 @@ $router->use( '/foo/:bar/:baz', function( $params ) {
 
 ## Attribution
 
-* Facebook logo - [Zlatko Najdenovski](https://iconfinder.com/icons/317727)
+Facebook logo - [Zlatko Najdenovski](https://iconfinder.com/icons/317727)
 ([CC BY 3.0](https://creativecommons.org/licenses/by/3.0/))
 
-* Menu icon - [Google material icons](https://material.io/icons/)
+Menu icon - [Google material icons](https://material.io/icons/)
 ([Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0))
 
-* SVG flags - [Panayiotis Lipiridis](https://github.com/lipis/flag-icon-css)
+SVG flags - [Panayiotis Lipiridis](https://github.com/lipis/flag-icon-css)
 ([MIT License](https://github.com/lipis/flag-icon-css/blob/master/LICENSE))
