@@ -1,5 +1,6 @@
-[![Screenshot of homepage](https://raw.github.com/williamvds/business-site/master/docs/homepage.png)]
-[![Screenshot of adaptive homepage](https://raw.github.com/williamvds/business-site/master/docs/adaptiveHomepage.png)]
+![Screenshot of homepage](/docs/homepage.png?raw=true "Screenshot of the homepage")
+
+![Screenshot of adaptive homepage](/docs/adptiveHomepage.png?raw=true "Screenshot of the homepage on a smaller screen")
 # A simple business site
 
 This project provides the backbone for the content a business might want to display on their
